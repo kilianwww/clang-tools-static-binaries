@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         clang-version: [ 21 ]
-        os: [ linux, windows ]
+        os: [ linux ]
         include:
           # Temporarily disabled versions for testing
           # - clang-version: 3.9
