@@ -15,8 +15,8 @@ jobs:
       cancel-in-progress: true
     strategy:
       matrix:
-        clang-version: [ 21 ]
-        os: [ linux ]
+        clang-version: [ 18, 19, 21 ]
+        os: [ linux, windows ]
         include:
           # Temporarily disabled versions for testing
           # - clang-version: 3.9
